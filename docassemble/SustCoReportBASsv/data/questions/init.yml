@@ -945,6 +945,10 @@ section: Rapport
 css class: report_download
 #decoration: sds_favicon
 question: Ladda ned eller skicka er SustCoReport
+subquestion: Gratulerar, ni har nu skapat er SustCoReport som kan ligga till grund för er organisations fortsatta arbete att bidra till hållbar utveckling.<br><br>Lycka till! 
+
+
+
 email template: sustcoreport_email
 attachments:
   - name: ""
