@@ -292,7 +292,7 @@ fields:
     required: True
     code: |
       scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenters</u><br><br>: results[i].q11_operation_est_stakeh
+  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>: results[i].q11_operation_est_stakeh
     required: True
     code: |
       scr_significance_likert
@@ -313,7 +313,7 @@ fields:
     required: True
     code: |
       scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenters</u><br><br>:  results[i].q11_mr_est_stakeh
+  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>:  results[i].q11_mr_est_stakeh
     required: True
     code: |
       scr_significance_likert
@@ -334,7 +334,7 @@ fields:
     required: True
     code: |
       scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenters</u><br><br>: results[i].q11_arb_est_stakeh
+  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>: results[i].q11_arb_est_stakeh
     required: True
     code: |
       scr_significance_likert
@@ -355,7 +355,7 @@ fields:
     required: True
     code: |
       scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenters</u><br><br>:  results[i].q11_milj_est_stakeh
+  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>:  results[i].q11_milj_est_stakeh
     required: True
     code: |
       scr_significance_likert
@@ -376,7 +376,7 @@ fields:
     required: True
     code: |
       scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenters</u><br><br>:  results[i].q11_gverk_est_stakeh
+  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>:  results[i].q11_gverk_est_stakeh
     required: True
     code: |
       scr_significance_likert
@@ -397,7 +397,7 @@ fields:
     required: True
     code: |
       scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenters</u><br><br>: results[i].q11_konsum_est_stakeh
+  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>: results[i].q11_konsum_est_stakeh
     required: True
     code: |
       scr_significance_likert
@@ -418,7 +418,7 @@ fields:
     required: True
     code: |
       scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenters</u><br><br>:  results[i].q11_samutv_est_stakeh
+  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>:  results[i].q11_samutv_est_stakeh
     required: True
     code: |
       scr_significance_likert
@@ -931,12 +931,21 @@ code: |
 #
 #---
 
+template: sustcoreport_email
+subject: |
+  Er SustCoReport 
+content: |
+  Hej,
+  
+  Bifogat finner ni er SustCoReport.
+
+---
 mandatory: True
 section: Rapport
 css class: report_download
 #decoration: sds_favicon
 question: Ladda ned eller skicka er SustCoReport
-
+email template: sustcoreport_email
 attachments:
   - name: ""
     filename: sustcoreport_${df.Organisation[0]}
@@ -944,6 +953,7 @@ attachments:
     valid formats:
       - pdf
 #      - docx
+
 
 buttons:
   #- Fortsätt: continue
