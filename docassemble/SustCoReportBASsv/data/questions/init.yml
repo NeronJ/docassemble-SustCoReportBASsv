@@ -946,12 +946,14 @@ attachments:
 #      - docx
 
 buttons:
-  - Fortsätt: continue
+  #- Fortsätt: continue
+  - Avsluta: exit
+    url: https://sustcoreport.se/
 back button: True
 back button label: | 
   Tillbaka
 under: |
-  Om du vill ladda ner dina svar i excel använd denna länk: ${ xlsx_transposed(results_table, 'sustcoreport_base_raw.xlsx','sustcoreport_base')}. Observera att alla personliga variabler kommer att raderas när du avslutar enkäten.
+  Om du vill ladda ner dina svar i excel använd denna länk: ${ xlsx_transposed(results_table, 'sustcoreport_base_raw.xlsx','sustcoreport_base')}.<br><br>Observera att alla personliga variabler kommer att raderas när du avslutar enkäten.
 
 ---
 
@@ -978,19 +980,19 @@ under: |
 #  Tillbaka
 #---
 
-mandatory: True
-section: Avslutning
-css class: scr_exit
+#mandatory: True
+#section: Avslutning
+#css class: scr_exit
 #decoration: sds_favicon
-question: |
-  Gratulerar, du har nu skapat din SustCoReport som kan ligga till grund för din organisations fortsatta arbete att bidra till hållbar utveckling.
-  <br><br>
-  Lycka till! 
+#question: |
+#  Gratulerar, du har nu skapat din SustCoReport som kan ligga till grund för din organisations fortsatta arbete att bidra till hållbar utveckling.
+#  <br><br>
+#  Lycka till! 
   
 
-buttons:
-  - Avsluta: exit
-    url: https://sustcoreport.se/
+#buttons:
+#  - Avsluta: exit
+#    url: https://sustcoreport.se/
   #- Konsultstöd: exit
   #  url: https://amap.se/
   #- SIS/TS 2:2021: exit
