@@ -107,12 +107,12 @@ body {
   color: #2962F6;
 }
 
-
 .form-label.text-start.btn.btn-light {
     font-family: "Menlo";
     font-size: 14px;
     color: #2962F6;
-    background-color: #fff;
+    background-color: #F4F5F6;
+    border-color: #F4F5F6
   }
 
 
