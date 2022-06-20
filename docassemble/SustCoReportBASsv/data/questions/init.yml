@@ -42,6 +42,8 @@ fields:
   - Dagens datum: results[i].date
     datatype: date
     required: True
+  - Your name: results[i].person_name
+    required: False
   - Ditt namn: responsible_person_docinput
     required: False
   - Organisationens namn: results[i].name.text
