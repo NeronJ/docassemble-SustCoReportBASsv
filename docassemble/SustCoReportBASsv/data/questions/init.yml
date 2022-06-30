@@ -42,8 +42,6 @@ fields:
   - Dagens datum: results[i].date
     datatype: date
     required: True
-  - Ditt namn: results[i].person_name
-    required: False
   - Organisationens namn: results[i].name.text
     required: True
   - Organisationsform: results[i].org_form
@@ -83,7 +81,9 @@ fields:
       - Representation i utlandet
       - Ingen internationell verksamhet
     none of the above: True
-
+  - SustPrio Participant kod: results[i].person_name
+    required: False
+    
 continue button label: |
   Fortsätt
 back button: True
