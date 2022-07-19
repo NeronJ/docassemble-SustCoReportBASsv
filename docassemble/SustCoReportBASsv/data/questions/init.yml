@@ -277,26 +277,6 @@ subquestion: |
   4) Hur betydande tror du att **era intressenter tycker** att er verksamhets påverkan är på ansvarsområdet?<br><br><br>
 
 fields:
-  - note: <hr>
-  
-  - note: <p>{Verksamhetsstyrning}<span>&nbsp;</span><span>&#9432;</span><br>
-  - 1) Er verksamhets påverkan: results[i].q11_operation_est
-    required: True
-    code: |
-      scr_significance_likert
-  - 2) Er branschs påverkan <u>idag</u>: results[i].q11_operation_est_industry
-    required: True
-    code: |
-      scr_significance_likert
-  - 3) Er branschs påverkan <u>om 10 år</u>: results[i].q11_operation_est_industry_10
-    required: True
-    code: |
-      scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>: results[i].q11_operation_est_stakeh
-    required: True
-    code: |
-      scr_significance_likert
-
 
   - note: <hr>
   
@@ -419,6 +399,26 @@ fields:
     code: |
       scr_significance_likert
   - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>:  results[i].q11_samutv_est_stakeh
+    required: True
+    code: |
+      scr_significance_likert
+
+  - note: <hr>
+  - note: <p>Det sista ansvarsområdet avviker från övriga då det snarare är en förutsättning för påverkan inom ovannämnda 6 ansvarsområden.<br><br>Frågan blir således hur betydande {Verksamhetsstyrning}<span>&nbsp;</span><span>&#9432;</span> är för en samlad påverkan inom de 6 ansvarsområdena.<br>
+  
+  - 1) Er verksamhets påverkan: results[i].q11_operation_est
+    required: True
+    code: |
+      scr_significance_likert
+  - 2) Er branschs påverkan <u>idag</u>: results[i].q11_operation_est_industry
+    required: True
+    code: |
+      scr_significance_likert
+  - 3) Er branschs påverkan <u>om 10 år</u>: results[i].q11_operation_est_industry_10
+    required: True
+    code: |
+      scr_significance_likert
+  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>: results[i].q11_operation_est_stakeh
     required: True
     code: |
       scr_significance_likert
