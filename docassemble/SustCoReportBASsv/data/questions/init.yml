@@ -106,7 +106,7 @@ subquestion: |
   2) I vilken utsträckning **tillämpar ni** principen i **er verksamhet?**<br><br>
   3) Hur **viktig** är principen för **er bransch om 10 år**?<br><br>
   4) Hur **viktig** tror du att principen är för **era intressenter**?<br><br>
-  * Notera att du kan få fram exempel på de olika principerna genom att placera markkören på respektive princip nedan<br><br> 
+  * Notera att du kan få fram exempel på de olika principerna genom att placera markören på respektive princip nedan<br><br> 
 
 fields:
   - note: <hr> ## styling is done with css - see separate file. 
@@ -277,7 +277,7 @@ subquestion: |
   2) Hur betydande är **er branschs nuvarande påverkan** på ansvarsområdet?<br><br>
   3) Hur betydande kommer **er branschs påverkan vara om 10 år** på ansvarsområdet?<br><br> 
   4) Hur betydande tror du att **era intressenter tycker** att er verksamhets påverkan är på ansvarsområdet?<br><br>
-  * Notera att du kan få fram exempel på de olika ansvarsområdena genom att placera markkören på respektive ansvarsområden nedan<br><br> 
+  * Notera att du kan få fram exempel på de olika ansvarsområdena genom att placera markören på respektive ansvarsområden nedan<br><br> 
 
 fields:
 
