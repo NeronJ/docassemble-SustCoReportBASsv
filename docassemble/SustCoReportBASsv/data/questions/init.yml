@@ -11,6 +11,7 @@ modules:
 ---
 mandatory: True
 section: Introduktion
+id: introduktion
 question:  |
   [FILE sustcoreport_logo]
 subquestion: |
@@ -956,6 +957,7 @@ mandatory: True
 section: Rapport
 css class: report_download
 #decoration: sds_favicon
+id: sista sidan
 question: Ladda ned eller skicka er SustCoReport
 subquestion: Gratulerar, ni har nu skapat er SustCoReport som kan ligga till grund för er organisations fortsatta arbete att bidra till hållbar utveckling.<br><br>Lycka till! 
 
