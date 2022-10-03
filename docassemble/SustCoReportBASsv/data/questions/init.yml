@@ -99,7 +99,7 @@ back button label: |
 section: Principerna
 #decoration: sds_favicon
 question: |
-  ISO 26000: de 7 principerna
+  De 7 principerna
 #* Genom att fråga om uppskattning betydelse/vikten och grad av principerna samt deras tillämpning får vi en uppskattning kring hur de svarande ser på de olika principerna och hur de själva anser att de implementerar principerna. Fråga 3 behandlar de svarandes syn på deras bransch och framtid betydelse, och den sista frågan ger en griv perceptionsbaserad uppskattning på organisations egna intressenters perspektiv.
 subquestion: |
   Beskriv hur er organisation förhåller sig till de 7 principerna genom att ge svar på nedanstående frågor:<br><br>
@@ -270,7 +270,7 @@ mandatory: True
 section: Ansvarsområden
 #decoration: sds_favicon
 question: |
-  ISO 26000: de 7 ansvarsområdena
+  De 7 ansvarsområdena
 #* Genom att fråga om [...] 
 subquestion: |
   Beskriv hur er verksamhet förhåller sig till de 7 ansvarsområdena genom att svara på nedanstående frågor:<br><br>
@@ -440,7 +440,7 @@ back button label: |
 mandatory: True
 section: Intressenter
 question: |
-  ISO 26000: identifiera och engagera intressenter
+  Identifiera och engagera intressenter
 #* Genom att fråga om [...] 
 
 subquestion: |
@@ -566,7 +566,7 @@ mandatory: True
 section: Prioriteringar
 #decoration: sds_favicon
 question: |
-    ISO 26000: prioriteringar
+    Prioriteringar
 #* Genom att fråga om [...] 
 
 
