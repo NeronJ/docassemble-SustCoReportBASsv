@@ -16,13 +16,15 @@ question:  |
   [FILE sustcoreport_logo]
 subquestion: |
  
- Välkommen till *SustCoReport* - ett webbaserat verktyg där organisationer och företag kan utföra en initial analys för att komma igång med sitt hållbarhetsarbete.
+ Välkommen till *SustCoReport* - ett webbaserat verktyg där organisationer och företag kan utföra en initial kostandsfri analys för att komma igång med sitt hållbarhetsarbete.
 
   Det tar uppskattningsvis 15-20 minuter att svara på frågorna vilket generera en unik rapport för er verksamhet. 
    
-  Processen är helt anonym och inga uppgifter som kan kopplas till dig eller er verksamhet kommer att sparas. Läs mer om hur inlämnad information hanteras via länken {informationshantering}.
+  Processen helt anonym och inga uppgifter som kan kopplas till dig eller er verksamhet kommer att sparas. Läs mer om hur inlämnad information hanteras via länken {informationshantering}.
   
-  Notera att en del av frågorna sannolikt kommer vara lite svåra att ge exakta svara på. Detta är en konsekvens av att frågorna är utformade i enlighet internationella standarder. Vi ber er i dessa fall uppskatta svar efter bästa förmåga.<br><br>
+  Notera att en del frågor sannolikt kommer vara lite svåra att ge exakta svara på. Detta är en konsekvens av att frågorna är utformade i enlighet med internationella standarder. Vi ber er i dessa fall uppskatta svar efter bästa förmåga.
+  
+  Konsulter som önskar använda SustCoReport för sina egna kunder ombedes följa våra [användarvillkor](https://sustcoreport.com/sv/konsulter/).<br><br>
 
 buttons:
   - Fortsätt: continue
