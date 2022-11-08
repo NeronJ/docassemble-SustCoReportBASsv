@@ -410,24 +410,24 @@ fields:
       scr_significance_likert
 
   - note: <hr>
-  - note: <p>{Verksamhetsstyrning|Verksamhetsstyrning :far-fa-comment-dots:}</p><h6>Det sista ansvarsområdet avviker från övriga då det snarare är en förutsättning för påverkan inom ovannämnda 6 ansvarsområden.<br><br>Frågan blir således hur betydande {Verksamhetsstyrning|Verksamhetsstyrning} är för en samlad påverkan inom de 6 ansvarsområdena.</h6>
-  
-  - 1) Er verksamhets påverkan: results[i].q11_operation_est
+  - note: <p>{Verksamhetsstyrning|Verksamhetsstyrning :far-fa-comment-dots:}</p><p style="font-size:14px;color:black;font-weight:normal">Det sista ansvarsområdet avviker från övriga då det snarare är en förutsättning för påverkan inom ovannämnda 6 ansvarsområden.<br><br>Frågan blir således hur betydande {Verksamhetsstyrning|Verksamhetsstyrning} är för en samlade påverkan inom de övriga 6 ansvarsområdena?</p><br>  
+
+  - 1) Betydelse för er verksamhet: results[i].q11_operation_est
     required: True
     code: |
-      scr_significance_likert
-  - 2) Er branschs påverkan <u>idag</u>: results[i].q11_operation_est_industry
+      scr_verkstyr_likert
+  - 2) Betydelse för er bransch <u>idag</u>: results[i].q11_operation_est_industry
     required: True
     code: |
-      scr_significance_likert
-  - 3) Er branschs påverkan <u>om 10 år</u>: results[i].q11_operation_est_industry_10
+      scr_verkstyr_likert
+  - 3) Betydelse för er bransch <u>om 10 år</u>: results[i].q11_operation_est_industry_10
     required: True
     code: |
-      scr_significance_likert
-  - 4) Er verksamhets påverkan enligt <u>era intressenter</u><br><br>: results[i].q11_operation_est_stakeh
+      scr_verkstyr_likert
+  - 4) Betydelse enligt <u>era intressenter</u><br><br>: results[i].q11_operation_est_stakeh
     required: True
     code: |
-      scr_significance_likert
+      scr_verkstyr_likert
 
 
 continue button label: |
@@ -461,6 +461,7 @@ fields:
     datatype: checkboxes
     choices:
       - Aktieägare
+      - Allmänheten
       - Banker
       - Branschorganisationer
       - Fackföreningar
@@ -495,6 +496,7 @@ fields:
     #  Ansvarighet - att stå till svars för konsekvenserna av tagna beslut och genomförda aktiviteter.
     choices:
       - Aktieägare
+      - Allmänheten
       - Banker
       - Branschorganisationer
       - Fackföreningar
@@ -530,6 +532,7 @@ fields:
     #  Ansvarighet - att stå till svars för konsekvenserna av tagna beslut och genomförda aktiviteter.
     choices:
       - Aktieägare
+      - Allmänheten
       - Banker
       - Branschorganisationer
       - Fackföreningar
